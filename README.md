@@ -24,6 +24,8 @@ Final dataset summary:
 -   📏 All resized to **128 × 128 pixels**
 -   ⚖️ Balanced mixture of all sources
 
+![Dataset Distribution](images/dataset.png)
+
 ## 📊 Dataset Distribution
 ![Dataset Distribution](images/dataset_distribution.png)
 
