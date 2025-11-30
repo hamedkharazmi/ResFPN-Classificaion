@@ -25,16 +25,13 @@ Final dataset summary:
 -   ⚖️ Balanced mixture of all sources
 
 ## 📊 Dataset Distribution
-``` markdown
 ![Dataset Distribution](images/dataset_distribution.png)
-```
 
 ## 🛠️ Preprocessing & Augmentation
 To increase model robustness, augmentations include rain, snow, fog,
 shadows, noise, rotation, normalization.
-``` markdown
 ![Augmentation Examples](images/augmentations.png)
-```
+
 
 ## 🔁 Data Pipeline
 Custom generator handles loading, augmentation, batching.\
@@ -43,15 +40,11 @@ Split: 70% train / 20% val / 10% test.
 ## 🧠 Model Architecture --- ResNet + FPN
 ResNet extracts hierarchical features.\
 FPN merges multi-scale features for global + local understanding.
-``` markdown
 ![Model Architecture](images/model_architecture.png)
-```
 
 ## 📈 Training Performance
 **Test Accuracy: 94.1%**
-``` markdown
 ![Training Curves](images/training_curves.png)
-```
 
 ## 📊 Evaluation Metrics
 **Avg Precision:** 0.9206\
